@@ -1,0 +1,15 @@
+spring:
+  cassandra:
+    contact-points: localhost
+    port: 9042
+    keyspace-name: crm
+    local-datacenter: datacenter1
+    schema-action: CREATE_IF_NOT_EXISTS
+  kafka:
+    bootstrap-servers: localhost:9092
+  data:
+    redis:
+      host: localhost
+      port: 6379
+server:
+  port: 8080

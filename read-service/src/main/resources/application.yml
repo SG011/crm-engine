@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: crm-read-projection
+      auto-offset-reset: earliest
+  data:
+    redis:
+      host: localhost
+      port: 6379
+server:
+  port: 8081

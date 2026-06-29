@@ -1,6 +1,6 @@
 # crm-engine
 
-Distributed, event-sourced CRM backend built for 10M TPS. Java 25, Spring Boot 3.4, Kafka, Cassandra, Redis.
+Distributed, event-sourced CRM backend built for 100M TPS. Java 25, Spring Boot 3.4, Kafka, Cassandra, Redis.
 
 ## Architecture
 
